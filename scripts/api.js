@@ -1,5 +1,5 @@
 const API = {
-    BASE_URL: 'http://localhost:3000',
+    BASE_URL: 'https://5d52-61-7-228-206.ngrok-free.app',
 
     async fetchWithErrorHandling(url, options = {}) {
         try {
