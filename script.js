@@ -39,7 +39,7 @@ loginForm.addEventListener('submit', async (e) => {
     try {
         console.log('Attempting login with:', { username });
         
-        const response = await fetch('http://localhost:3000/api/login', {
+        const response = await fetch('https://5d52-61-7-228-206.ngrok-free.app/api/login', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
@@ -77,7 +77,7 @@ registerForm.addEventListener('submit', async (e) => {
     }
 
     try {
-        const response = await fetch('http://localhost:3000/api/register', {
+        const response = await fetch('https://5d52-61-7-228-206.ngrok-free.app/api/register', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
